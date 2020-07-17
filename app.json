@@ -1,0 +1,13 @@
+{
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "吃啥哟",
+    "navigationBarTextStyle": "black"
+  },
+  "entryPagePath": "pages/home/home",
+  "pages": [
+    "pages/home/home"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
