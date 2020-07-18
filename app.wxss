@@ -1,0 +1,8 @@
+view,
+.block {
+  display: block;
+}
+
+view {
+  box-sizing: border-box;
+}
