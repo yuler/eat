@@ -1,3 +1,8 @@
-<view>
-  Home Page
+<view class="page">
+  <view class="restaurant">
+    <image class="cover block" src="{{restaurant.cover}}" />
+    <view class="name">{{restaurant.name}}</view>
+    <view class="recommend">{{restaurant.recommend}}</view>
+  </view>
+  <view class="button" bind:tap="submit"/>
 </view>
