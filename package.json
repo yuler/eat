@@ -1,0 +1,15 @@
+{
+  "name": "eat",
+  "version": "0.0.1",
+  "description": "'what to eat' wechat miniprogram",
+  "main": "index.js",
+  "repository": "git@github.com:yuler/eat.git",
+  "author": "yuler <joyful4yu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node scripts/deploy.js"
+  },
+  "devDependencies": {
+    "miniprogram-ci": "^1.0.51"
+  }
+}
