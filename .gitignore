@@ -1,4 +1,11 @@
 .DS_Store
+node_modules
+
+# Logs
+*.log
 
 # Editor
 .wechatide
+
+# Secret
+private.*.key
