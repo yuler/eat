@@ -6,8 +6,8 @@ Page({
   },
 
   async submit() {
+    wx.vibrateShort()
     const restaurant = await Api.fetchRandomRestaurant()
-    console.log(restaurant)
     this.setData({ restaurant })
   }
 })

@@ -1,8 +1,13 @@
 <view class="page">
   <view class="restaurant">
-    <image class="cover block" src="{{restaurant.cover}}" />
-    <view class="name">{{restaurant.name}}</view>
-    <view class="recommend">{{restaurant.recommend}}</view>
+    <view wx:if="{{!restaurant}}">请您点击按钮获取</view>
+    <block wx:else>
+      <image class="cover block" src="{{restaurant.cover}}" />
+      <view class="name">{{restaurant.name}}</view>
+      <view class="recommend">{{restaurant.recommend}}</view>
+    </block>
   </view>
-  <view class="button" bind:tap="submit"/>
+  <view class="button" bind:tap="submit">
+    <view>请按下我</view>
+  </view>
 </view>

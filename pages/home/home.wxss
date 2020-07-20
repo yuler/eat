@@ -32,10 +32,15 @@
 }
 
 .button {
-  width: 300rpx;
-  height: 300rpx;
+  width: 250rpx;
+  height: 250rpx;
+  text-align: center;
   border-radius: 50%;
+  color: white;
   background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
