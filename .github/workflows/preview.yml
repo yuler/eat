@@ -1,4 +1,4 @@
-name: Auto Deploy Preview To Miniprogram track
+name: Auto Deploy Preview To Miniprogram Trial Version
 
 on:
   pull_request:
