@@ -1,6 +1,6 @@
 name: Auto Deploy Preview To Miniprogram Trial Version
 
-on: push
+on:
   pull_request:
     types: [labeled]
 
