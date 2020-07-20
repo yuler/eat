@@ -1,18 +1,21 @@
 name: Auto Deploy Preview To Miniprogram Trial Version
 
-on:
+on: push
   pull_request:
     types: [labeled]
 
 jobs:
-  build:
+  deploy:
     if: contains(github.event.pull_request.labels.*.name, 'preview')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: '10.x'
-      - run: echo ${{ secrets.KEY }} >> private.wxda5fb4f5808e2104.key
-      - run: yarn
-      - run: yarn deploy
+          node-version: "10.x"
+      - run: |
+          echo "$KEY" > private.wxda5fb4f5808e2104.key
+          yarn
+          yarn deploy
+        env:
+          KEY: ${{ secrets.KEY }}
