@@ -7,7 +7,11 @@
   "author": "yuler <joyful4yu@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "node scripts/deploy.js"
+    "build:npm": "node scripts/build-npm.js",
+    "deploy": "yarn build:npm && node scripts/deploy.js"
+  },
+  "dependencies": {
+    "weui-miniprogram": "^1.0.4"
   },
   "devDependencies": {
     "miniprogram-ci": "^1.0.51"
