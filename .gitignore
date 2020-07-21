@@ -1,6 +1,9 @@
 .DS_Store
 node_modules
 
+# miniporgram
+miniprogram_npm
+
 # Logs
 *.log
 

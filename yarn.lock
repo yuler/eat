@@ -3909,6 +3909,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+weui-miniprogram@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/weui-miniprogram/-/weui-miniprogram-1.0.4.tgz#379bb56970c8fd84a83042433e45fef329397733"
+
 which-module@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
