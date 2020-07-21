@@ -16,7 +16,9 @@
       inertia="{{true}}"
       x="{{aboutPosition.x}}" y="{{aboutPosition.y}}"
       bind:touchend="moveEnd">
-      A
+      <navigator url="/pages/about/about">
+        <mp-icon icon="more" />
+      </navigator>
     </movable-view>
   </movable-area>
 </view>
