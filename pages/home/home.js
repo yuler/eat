@@ -7,6 +7,18 @@ Page({
     aboutPosition: null,
   },
 
+  onShareAppMessage: () => {
+    return {
+      title: '吃啥好?',
+    }
+  },
+
+  onShareTimeline: () => {
+    return {
+      title: '吃啥好?',
+    }
+  },
+
   onLoad() {
     const { screenWidth, screenHeight } = wx.getSystemInfoSync()
     const ratio = screenWidth / 375
