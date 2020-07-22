@@ -48,7 +48,7 @@
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"scripts": {
-		"beforeCompile": "NODE_ENV=production npx tailwindcss build tailwind.css -c tailwind.config.js -o app.wxss --no-autoprefixer && npx replace-in-files --string='*,' --replacement='' ./app.wxss",
+		"beforeCompile": "yarn build:tailwind",
 		"beforePreview": "",
 		"beforeUpload": ""
 	},

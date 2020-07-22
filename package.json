@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build:npm": "node scripts/build-npm.js",
-    "deploy": "yarn build:npm && node scripts/deploy.js"
+    "build:tailwind": "NODE_ENV=production npx tailwindcss build tailwind.css -c tailwind.config.js -o app.wxss --no-autoprefixer && npx replace-in-files --string='*,' --replacement='' ./app.wxss",
+    "deploy": "yarn build:npm && build:tailwind && node scripts/deploy.js"
   },
   "dependencies": {
     "weui-miniprogram": "^1.0.4"
