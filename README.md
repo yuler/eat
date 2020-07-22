@@ -37,3 +37,16 @@ Restaurant {
   location: string[]  // Geo
 }
 ```
+
+# Note
+
+开发工具报错
+
+```
+/bin/sh: npx: command not found
+```
+
+```bash
+sudo ln -s `which npx` /usr/local/bin/npx
+sudo ln -s `which node` /usr/local/bin/node
+```
