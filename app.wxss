@@ -1,8 +1,6 @@
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
 view,
 .block {
   display: block;
-}
-
-view {
-  box-sizing: border-box;
 }
