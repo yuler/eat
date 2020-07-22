@@ -1,2 +1,20 @@
-<mp-navigation-bar title="About" />
+<mp-navigation-bar title="About" background="white" />
 
+<view class="page py-20">
+  <view class="px-10">次项目主要解决随机选择餐馆的同时，实践一些微信小程序新的 Feature 功能。</view>
+
+  <mp-cells title="菜单">
+    <mp-cell link value="当前餐馆列表" />
+    <mp-cell link value="如何添加餐馆" />
+    <mp-cell link ext-class="cell-contact">
+      <button class="contact" open-type="contact">联系我</button>
+    </mp-cell>
+  </mp-cells>
+
+  <mp-cells title="源码">
+    <mp-cell hover bind:tap="copy">
+      <view>GitHub</view>
+      <view slot="footer">点击复制链接</view>
+    </mp-cell>
+  </mp-cells>
+</view>

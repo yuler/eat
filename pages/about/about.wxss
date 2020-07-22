@@ -1,0 +1,12 @@
+.cell-contact {
+  padding: 0 16px;
+}
+
+button.contact {
+  padding: 16px 0;
+  text-align: left;
+  -webkit-appearance: none;
+}
+button.contact::after {
+  border: 0;
+}

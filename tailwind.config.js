@@ -23,9 +23,12 @@ module.exports = {
     },
     margin: {
       10: '20rpx',
+      20: '40rpx',
     },
     spacing: {
+      0: '0!important',
       10: '20rpx',
+      20: '40rpx',
     },
     gap: {
       10: '20rpx',
