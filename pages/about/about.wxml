@@ -7,7 +7,7 @@
     <mp-cell link value="当前餐馆列表" />
     <mp-cell link value="如何添加餐馆" />
     <mp-cell link ext-class="cell-contact">
-      <button class="contact" open-type="contact">联系我</button>
+      <button class="contact" hover-class="none" open-type="contact">联系我</button>
     </mp-cell>
   </mp-cells>
 
