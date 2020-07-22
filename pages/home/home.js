@@ -1,4 +1,5 @@
 const Api = require('../../api')
+const { log } = require('../../utils')
 
 Page({
   data: {
@@ -24,3 +25,5 @@ Page({
     this.setData({ aboutPosition })
   }
 })
+
+log.in(Page)
