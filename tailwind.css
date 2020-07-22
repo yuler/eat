@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
+/* Set page styles */
+page {
+  background: #f6f6f6;
+  font-size: 32rpx;
+}

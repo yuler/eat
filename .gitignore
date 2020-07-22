@@ -3,6 +3,7 @@ node_modules
 
 # miniporgram
 miniprogram_npm
+app.wxss
 
 # Logs
 *.log

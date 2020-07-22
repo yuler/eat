@@ -14,6 +14,8 @@
     "weui-miniprogram": "^1.0.4"
   },
   "devDependencies": {
-    "miniprogram-ci": "^1.0.51"
+    "miniprogram-ci": "^1.0.51",
+    "replace-in-files-cli": "^0.3.1",
+    "tailwindcss": "^1.5.2"
   }
 }
