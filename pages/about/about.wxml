@@ -11,6 +11,12 @@
     </mp-cell>
   </mp-cells>
 
+  <mp-cells title="问题反馈">
+    <mp-cell link ext-class="cell-feedback">
+      <button class="feedback" hover-class="none" open-type="feedback">反馈</button>
+    </mp-cell>
+  </mp-cells>
+
   <mp-cells title="源码">
     <mp-cell hover bind:tap="copy">
       <view>GitHub</view>

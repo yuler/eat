@@ -1,12 +1,16 @@
-.cell-contact {
+.cell-contact,
+.cell-feedback {
   padding: 0 16px;
 }
 
-button.contact {
+button.contact,
+button.feedback {
   padding: 16px 0;
   text-align: left;
   -webkit-appearance: none;
 }
-button.contact::after {
+
+button.contact::after,
+button.feedback::after {
   border: 0;
 }
