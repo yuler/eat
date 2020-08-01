@@ -1,5 +1,5 @@
 const Api = require('../../api')
-const { log } = require('../../utils')
+const { log } = require('../../utils/index')
 
 Page({
   data: {
@@ -20,6 +20,7 @@ Page({
   },
 
   onLoad() {
+    log.debug('[page]: onLoad')
     const { screenWidth, screenHeight } = wx.getSystemInfoSync()
     const ratio = screenWidth / 375
     const offset = 50 * ratio + 20

@@ -1,3 +1,5 @@
+const { log } = require('../../utils/index')
+
 const repo = 'https://github.com/yuler/eat'
 
 Page({
@@ -7,3 +9,5 @@ Page({
     })
   }
 })
+
+log.in(Page)

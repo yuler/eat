@@ -17,4 +17,10 @@
       <view slot="footer">点击复制链接</view>
     </mp-cell>
   </mp-cells>
+
+  <mp-cells title="上报日志">
+    <mp-cell hover ext-class="cell-feedback">
+      <button class="feedback" hover-class="none" open-type="feedback">上报</button>
+    </mp-cell>
+  </mp-cells>
 </view>
